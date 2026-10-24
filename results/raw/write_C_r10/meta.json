@@ -1,0 +1,19 @@
+{
+  "profile": "write",
+  "user_class": "WriteProfile",
+  "scenario": "C",
+  "users": 150,
+  "repeat": 10,
+  "warmup_seconds": 20,
+  "duration_seconds": 90,
+  "host": "http://localhost:8080",
+  "started_at": "2026-10-23T23:47:19.344439+00:00",
+  "locust_exit_code": 1,
+  "cpu_avg_percent": {
+    "api-gateway": 12.666666666666666,
+    "customers-service": 16.33111111111111,
+    "vets-service": 0.3005555555555556
+  },
+  "cpu_samples": 18,
+  "finished_at": "2026-10-23T23:49:10.429530+00:00"
+}

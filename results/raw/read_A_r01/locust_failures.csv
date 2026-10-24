@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+GET,GET /owners,CatchResponseError('HTTP 503'),607,2026-10-23T21:52:20Z,2026-10-23T21:53:24Z
+GET,GET /vets,HTTPError('503 Server Error: Service Unavailable for url: GET /vets'),150,2026-10-23T21:52:23Z,2026-10-23T21:53:22Z
+POST,POST /owners,CatchResponseError('HTTP 503'),65,2026-10-23T21:52:22Z,2026-10-23T21:53:23Z
+GET,GET /owners/{id},HTTPError('503 Server Error: Service Unavailable for url: GET /owners/{id}'),425,2026-10-23T21:52:21Z,2026-10-23T21:53:23Z
